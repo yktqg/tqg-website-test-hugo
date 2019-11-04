@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 offset-md-4 text-center" style="margin-top:300px;">
+            <h3 class="mb-15">Login to dashboard</h3>
+            <form class="form-area" action="/api/auth" method="post" class="contact-form">
+              <input name="username" placeholder="Username" class="common-input mb-20 form-control" required type="text">
+              <input name="password" placeholder="Password" class="common-input mb-20 form-control" required type="password">
+              <input type="submit" class="genric-btn small info" style="width:130px;" value="Logga in">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
